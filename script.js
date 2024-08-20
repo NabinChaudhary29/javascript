@@ -185,7 +185,7 @@ multi line comment
 //     let vari = notdefined;
 // } catch (error){
 //     console.log(error);
-    
+
 // }finally{
 //     console.log("finally");
 // }
@@ -269,54 +269,324 @@ multi line comment
 
 // input string and reserve
 
-var string = "nabin chaudhary";
+// var string = "nabin chaudhary";
 
-var reverse = string.split(" ").reverse().join(" ");
+// var reverse = string.split("").reverse().join("");
 
-console.log(reverse);
+// console.log(reverse);
 
-// sum of array element
+// //usin for loop
+// var stringvariable ="hello world";
+// var reversestringforloop = "";
+// for (i= stringvariable.length-1; i>=0; i--){
+//     reversestringforloop = reversestringforloop + stringvariable[i];
+//     console.log(reversestringforloop);
+// }
+// console.log(reversestringforloop);
+// // sum of array element
 
-let arr = [1,2,3,4,5,6];
-let sum = 0;
-for (let i=0; i<arr.length; i++){
-    sum += arr[i];
-    // console.log(i);
-}
-console.log("sum is" + sum);
+// let arr = [1,2,3,4,5,6];
+// let sum = 0;
+// for (let i=0; i<arr.length; i++){
+//     sum += arr[i];
+//     // console.log(i);
+// }
+// console.log("sum is" + sum);
 
-// palindrome
+//while loop
+//  var aray = [1,2,3,4,5];
+//  var j = 0;
+//  while(j<= aray.length){
 
-function isPalindrome(str) {
-    let j = str.length - 1
-    for (let i = 0; i < str.length / 2; i++) {
-        if (str[i] != str[j]) {
-            return false;
-        }
-        j--;
-    }
-    return true;
-}
- 
-let str1 = "racecar";
-let str2 = "nitin";
-let str3 = "Rama";
- 
-console.log(isPalindrome(str1));
-console.log(isPalindrome(str2));
-console.log(isPalindrome(str3));
+//     sum = sum +aray[i];
+//     j++;
+//  }
+//  console.log(sum);
 
 
-// factorial
+// // palindrome
 
-let n = 12;
-let i = 1;
-for (i = 1; i <= n; i++) {
-    if (n % i == 0) {
-        console.log(i);
-    }
-}
+// function isPalindrome(str) {
+//     let j = str.length - 1
+//     for (let i = 0; i < str.length / 2; i++) {
+//         if (str[i] != str[j]) {
+//             return false;
+//         }
+//         j--;
+//     }
+//     return true;
+// }
+
+// let str1 = "racecar";
+// let str2 = "nitin";
+// let str3 = "Rama";
+
+// console.log(isPalindrome(str1));
+// console.log(isPalindrome(str2));
+// console.log(isPalindrome(str3));
+
+
+// // factor
+
+// let n = 12;
+// let i = 1;
+// for (i = 1; i <= n; i++) {
+//     if (n % i == 0) {
+//         console.log(i);
+//     }
+// }
+
+// prime number
+
+// number = 10;
+// isprime = true;
+// for (i=2 ; i<number; i++){
+//     if(number % i ==0){
+//         isprime = false;
+//         break;
+//     }
+// }
+// if (isprime){
+//     console.log("prime number");
+// }
+// else{
+//     console.log("not a prime");
+// }
+
+// largest number in array
+// var largestarray = [100,300,40,60];
+// var largestnumber = 0;
+// for ( i =0; i<largestarray.length; i++){
+//    if(largestnumber <largestarray[i]){
+//     largestnumber = largestarray [i];
+//    }
+// }
+// console.log(largestnumber);
 
 
 
+//smallest number
+// var largestarray = [100,300,40,60];
+// var smallnumber = Number.MAX_VALUE;
+// for ( i =0; i<largestarray.length; i++){
+//    if(smallnumber >largestarray[i]){
+//     smallnumber = largestarray [i];
+//    }
+// }
+// console.log(smallnumber);
 
+
+// factorial of number
+// var factorialnumber = 5;
+// fact=1;
+// for (i= 1; i<=factorialnumber; i++){
+//     fact = fact * i;
+// }
+// console.log(fact);
+
+
+//counting volwes
+
+// function getVowels(string) {
+//     let Vowels = "aAeEiIoOuU";
+//     let vowelsCount = 0;
+//     for (let i = 0; i < string.length; i++) {
+//         if (Vowels.indexOf(string[i]) !== -1) {
+//             vowelsCount += 1;
+//         }
+//     }
+//     return vowelsCount;
+// }
+// console.log(
+//     "The Number of vowels in -" +
+//         " A Computer Science Portal for Geeks:" +
+//         getVowels(
+//             "A Computer Science Portal for Geeks"
+//         )
+// );
+
+
+//  let input = prompt("five me word")
+
+//  let input = "milan is gandu and gay";
+//  let volwel = "aeiou";
+//  let count = 0;
+//  for (i =0; i<input.length; i++){
+//     for (j=0; j<volwel.length; j++){
+//         if (input[i] == volwel[j]){
+//             count++;
+//         }
+//     }
+//  }
+//  console.log(count);
+
+
+// Remove duplicates from an Array
+
+// var duplicate =[1,2,3,10,2,3,9,1,3,4,6,7,8];
+// result = [];
+// for(i=0; i<duplicate.length; i++){
+//     if (result.indexOf(duplicate[i]) === -1){
+//         result.push(duplicate[i]);
+//     }
+// }
+// console.log(result);
+
+//convert temp
+
+// cel = prompt("emter temp in cel")
+// cel = 0;
+// feh = (9/5)*cel +32;
+// console.log(feh);
+
+// ///
+// // feh =32;
+// feh = prompt("emter temp in feh")
+// cel= (feh-32)*5/9;
+// // console.log(cel);
+// alert(cel);
+
+
+//  var array =[1,2,3,4,5,5];
+//  console.log(array.includes(100));
+
+
+//  var stringvar="hell world";
+//  console.log(stringvar.toLocaleUpperCase().includes("world"));
+
+//template literals
+
+// let name ="nabin";
+// let age =32;
+// stringvariables = `${name} is ${age} yeras old`;
+// console.log(stringvariables);
+
+// function sum(a,b){
+//     console.log(`sum is ${a+b}`);
+// }
+// sum(1,3);
+
+// function celciusToFahr(temp){
+//     fahre = (temp)*9/5+32;
+//     return fahre;
+// }
+// let degree = celciusToFahr(0);
+
+// console.log(degree);
+
+// // Immediate Invoked Function
+
+
+// (function() { 
+//     console.log("test"); 
+//     })();
+
+
+//     // Function with Default Params
+
+
+//     let multipy = (a= 1,b =13)=>{
+//         return a*b;
+
+//     };
+//     console.log(multipy(4,5));
+//     console.log(multipy());
+//     console.log(multipy(4,7));
+//     console.log(multipy());
+
+// let isprime = (num)=>{
+//     for ( i=2; i<num; i++ ){
+//         if(num%i == 0){
+//             return false;
+//         }
+//         return true;
+//     }
+// }
+
+// let number = prompt("enter any number");
+// let result = isprime(7);
+// console.log(result);
+// alert (result);
+
+
+// const person = new Object(); 
+// person.firstName = "John"; 
+// person.lastName = "Doe"; 
+// person.age = 30; 
+// person.isMarried = false;
+
+// console.log(person);
+// const person = {
+//     firstName:"John",
+//     lastName: "Doe", 
+//     age: 30, 
+//     isMarried: false
+// }; 
+// console.log(person.age);
+
+// const object = {
+//     firstName:"John smith ",
+//     lastName: "Doe", 
+//     age: 30, 
+//     isMarried: true,
+//     fullSentence: function(){
+//         return this.firstName + " " + this.lastName +" "+ this.age;
+        
+//     }
+// };
+// console.log(object.fullSentence());
+
+// const object1 = { 
+//     firstName: "John",
+//     lastName: "Doe", 
+//     age: 30, 
+//     address: { 
+//         street: "123 Main St", 
+//         city: "New York", 
+//         state: "NY" 
+//     }
+// }; 
+    
+//     console.log(object1.address.state);
+
+//Print Numbers from 1 to n
+//  function number(n) {
+
+//     for (var i = 1; i <= n; i++) {        
+//     console.log(i);
+//     }
+  
+//   };
+//   number(10);
+
+
+  //Print all even Numbers 
+// function even(n){
+//     for (i=2; i<=n; i+=2){
+//         console.log(i);
+
+//     }
+// } ;
+// even(10);
+//print all odd number
+
+// function odd(n){
+//   for (i=1; i<=n; i+=2){
+//       console.log(i);
+
+//   }
+// } ;
+// odd(100);
+
+// sum of even number
+sum = 0;
+function even(n){
+      for (i=2; i<=n; i+=2){
+        sum = sum+i;
+          // console.log(sum)
+      }
+      return sum;
+
+  } ;
+ var result= even(10);
+ console.log(result);
